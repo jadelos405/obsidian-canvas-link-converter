@@ -5,8 +5,7 @@ node_modules/
 .env
 package-lock.json
 yarn.lock
-releases/v1.0.0/manifest.json
-releases/v1.0.0/main.js
+releases/
 rollup.config.js
 .trae/
 test.md

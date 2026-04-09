@@ -4,7 +4,9 @@ Obsidian 插件 - Canvas 链接自动转换工具
 
 ## 功能说明
 
-当在属性区域（Frontmatter）中输入 `[[*.canvas]]` 格式的链接时，插件会自动将其转换为 `[[*.canvas|*]]` 格式。
+大约在obsidian的v1.10.0及以前的版本中，当在属性区域（Frontmatter）中输入 `[[*.canvas]]` 格式的链接时，插件会自动将其转换为 `[[*.canvas|*]]` 格式。
+
+然而，在obsidian的v1.10.0及以后的版本中，obsidian官方**移除**了这样的功能，此插件旨在恢复这样的功能。
 
 ### 转换示例
 
@@ -18,11 +20,11 @@ Obsidian 插件 - Canvas 链接自动转换工具
 
 ### 方式一：手动安装
 
-1. 下载项目的 `releases/v1.0.0` 目录下的文件
-2. 将文件复制到 Obsidian 插件目录：
-   - Windows: `%vault_path%/.obsidian/plugins/canvas-link-converter/`
-   - macOS: `~/.obsidian/plugins/canvas-link-converter/`
-3. 在 Obsidian 设置中启用插件
+1. 下载项目的发行版的文件或文件夹
+2. 将文件或文件夹复制到 Obsidian 插件目录：
+   - Windows: `%vault_path%/.obsidian/plugins/`
+   - macOS: `~/.obsidian/plugins/`
+3. 在 Obsidian 设置中刷新插件列表，并启用插件
 
 ### 方式二：开发模式安装
 
