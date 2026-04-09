@@ -1,0 +1,31 @@
+{
+  "name": "canvas-link-converter",
+  "version": "1.0.0",
+  "description": "当在属性中输入[[*.canvas]]时，自动转换为[[*.canvas|*]]",
+  "main": "main.js",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js -w",
+    "build": "rollup --config rollup.config.js",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "canvas",
+    "link"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "obsidian": "^1.0.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "typescript": "^4.6.0"
+  }
+}

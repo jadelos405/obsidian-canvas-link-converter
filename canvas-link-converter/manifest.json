@@ -1,0 +1,10 @@
+{
+  "id": "canvas-link-converter",
+  "name": "Canvas Link Converter",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "当在属性中输入[[*.canvas]]时，自动转换为[[*.canvas|*]]",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourusername",
+  "isDesktopOnly": false
+}
