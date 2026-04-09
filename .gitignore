@@ -1,8 +1,12 @@
 node_modules/
-*.js
 *.js.map
 .DS_Store
 *.log
 .env
 package-lock.json
 yarn.lock
+releases/v1.0.0/manifest.json
+releases/v1.0.0/main.js
+rollup.config.js
+.trae/
+test.md
